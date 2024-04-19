@@ -11,7 +11,8 @@ def index():
 
 @app.route('/index')
 def href():
-    return '<h1>Hello</h1>'
+    return '''<h1>Hello</h1>
+    <a href="/">index</a>'''
 
 
 if __name__ == '__main__':
